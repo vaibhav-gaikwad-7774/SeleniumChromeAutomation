@@ -20,6 +20,13 @@
             <version>4.23.1</version>
         </dependency>
         
+        <dependency>
+    <groupId>org.assertj</groupId>
+    <artifactId>assertj-core</artifactId>
+    <version>3.24.2</version> <!-- Latest version -->
+    <scope>test</scope>
+</dependency>
+        
         <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
 <dependency>
     <groupId>org.apache.logging.log4j</groupId>

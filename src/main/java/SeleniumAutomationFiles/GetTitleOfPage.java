@@ -18,20 +18,12 @@ public class GetTitleOfPage {
         
         // Set implicit wait to handle elements loading time
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        
-        try {
-            // Navigate to a sample website
-            driver.get("https://saucelabs.com/");
+ 
+            driver.get("https://www.geeksforgeeks.org/");
             
-            // Fetch and print the title of the page
             String pageTitle = driver.getTitle();
             System.out.println("Title of the page: " + pageTitle);
-        } catch (Exception e) {
-            // Handle any exceptions if they occur
-            System.out.println("An error occurred: " + e.getMessage());
-        } finally {
-            // Ensure that the browser is closed after execution
             driver.quit();
-        }
     }
+    
 }
