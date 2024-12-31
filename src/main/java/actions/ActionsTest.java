@@ -1,5 +1,7 @@
 package actions;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -49,7 +51,7 @@ public class ActionsTest extends baseTest {
     }
     
     @Test
-    public void testMouseHover() {
+    public void testMouseHover() throws InterruptedException {
         driver.get("https://bonigarcia.dev/selenium-webdriver-java/mouse-over.html");
         driver.manage().window().maximize();
 
@@ -57,10 +59,30 @@ public class ActionsTest extends baseTest {
 
         WebElement compassImage = driver.findElement(By.xpath("/html/body/main/div/div[4]/div[1]/img"));
         actions.moveToElement(compassImage).build().perform();
+        Thread.sleep(3000);
 
         WebElement caption = driver.findElement(RelativeLocator.with(By.tagName("p")).near(compassImage));
         Assert.assertEquals(caption.getText(), "Compass");
     }
+    
+    @Test
+    public void testMouseHover1() {
+        driver.get("https://bonigarcia.dev/selenium-webdriver-java/mouse-over.html");
+        driver.manage().window().maximize();
+        Actions actions = new Actions(driver);
+
+        List<String> imageList = Arrays.asList("Compass", "Calendar", "Award", "Landscape");
+
+        for (String imageName : imageList) {
+            String locator = String.format("//img[@src='img/%s.png']", imageName.toLowerCase());
+            WebElement image = driver.findElement(By.xpath(locator));
+            actions.moveToElement(image).build().perform();
+
+            WebElement caption = driver.findElement(RelativeLocator.with(By.tagName("p")).near(image));
+            Assert.assertEquals(caption.getText(), imageName);  
+        }
+    }
+
 
     @AfterTest
     public void tearDown() {
