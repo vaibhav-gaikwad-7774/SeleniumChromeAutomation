@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-31T18:04:43 IST" name="Default suite" finished-at="2024-12-31T18:04:56 IST" duration-ms="12547">
+  <suite started-at="2025-01-03T12:57:31 IST" name="Default suite" finished-at="2025-01-03T12:57:45 IST" duration-ms="13306">
     <groups>
     </groups>
-    <test started-at="2024-12-31T18:04:43 IST" name="Default test" finished-at="2024-12-31T18:04:56 IST" duration-ms="12547">
+    <test started-at="2025-01-03T12:57:31 IST" name="Default test" finished-at="2025-01-03T12:57:45 IST" duration-ms="13306">
       <class name="actions.ActionsTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:actions.ActionsTest@5a411614]" started-at="2024-12-31T18:04:43 IST" name="setup" finished-at="2024-12-31T18:04:46 IST" duration-ms="2672" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:actions.ActionsTest@7ae0a9ec]" started-at="2025-01-03T12:57:31 IST" name="setup" finished-at="2025-01-03T12:57:35 IST" duration-ms="3352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testContextAndDoubleClick()[pri:0, instance:actions.ActionsTest@5a411614]" started-at="2024-12-31T18:04:46 IST" name="testContextAndDoubleClick" finished-at="2024-12-31T18:04:51 IST" duration-ms="4936" status="PASS">
+        <test-method signature="testContextAndDoubleClick()[pri:0, instance:actions.ActionsTest@7ae0a9ec]" started-at="2025-01-03T12:57:35 IST" name="testContextAndDoubleClick" finished-at="2025-01-03T12:57:40 IST" duration-ms="4967" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testContextAndDoubleClick -->
-        <test-method signature="testMouseHover()[pri:0, instance:actions.ActionsTest@5a411614]" started-at="2024-12-31T18:04:51 IST" name="testMouseHover" finished-at="2024-12-31T18:04:54 IST" duration-ms="3616" status="PASS">
+        <test-method signature="testMouseHover()[pri:0, instance:actions.ActionsTest@7ae0a9ec]" started-at="2025-01-03T12:57:40 IST" name="testMouseHover" finished-at="2025-01-03T12:57:44 IST" duration-ms="3959" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMouseHover -->
-        <test-method signature="testMouseHover1()[pri:0, instance:actions.ActionsTest@5a411614]" started-at="2024-12-31T18:04:54 IST" name="testMouseHover1" finished-at="2024-12-31T18:04:55 IST" duration-ms="947" status="PASS">
+        <test-method signature="testMouseHover1()[pri:0, instance:actions.ActionsTest@7ae0a9ec]" started-at="2025-01-03T12:57:44 IST" name="testMouseHover1" finished-at="2025-01-03T12:57:44 IST" duration-ms="780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMouseHover1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:actions.ActionsTest@5a411614]" started-at="2024-12-31T18:04:55 IST" name="tearDown" finished-at="2024-12-31T18:04:56 IST" duration-ms="280" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:actions.ActionsTest@7ae0a9ec]" started-at="2025-01-03T12:57:44 IST" name="tearDown" finished-at="2025-01-03T12:57:45 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
