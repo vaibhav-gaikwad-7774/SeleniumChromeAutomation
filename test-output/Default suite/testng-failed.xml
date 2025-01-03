@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="actions.ActionsTest">
+        <methods>
+          <include name="testMouseHover1"/>
+          <include name="testMouseHover"/>
+          <include name="testDragAndDrop2"/>
+          <include name="testCopyAndPaste"/>
+          <include name="tearDown"/>
+          <include name="testDragAndDrop"/>
+          <include name="testContextAndDoubleClick"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- actions.ActionsTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

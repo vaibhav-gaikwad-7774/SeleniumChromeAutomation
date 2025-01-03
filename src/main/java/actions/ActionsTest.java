@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -82,6 +84,101 @@ public class ActionsTest extends baseTest {
             Assert.assertEquals(caption.getText(), imageName);  
         }
     }
+    
+    @Test
+    public void testDragAndDrop() throws InterruptedException {
+        driver.get("https://bonigarcia.dev/selenium-webdriver-java/drag-and-drop.html");
+        driver.manage().window().maximize();
+        Actions actions = new Actions(driver);
+
+        WebElement draggable = driver.findElement(By.id("draggable"));
+
+        int offset = 100;
+        Point initialLocation = draggable.getLocation();
+
+        actions.dragAndDropBy(draggable, offset, 0).perform();
+        Thread.sleep(1000);
+
+        actions.dragAndDropBy(draggable, 0, offset).perform();
+        Thread.sleep(1000);
+
+        actions.dragAndDropBy(draggable, -offset, 0).perform();
+        Thread.sleep(1000);
+
+        actions.dragAndDropBy(draggable, 0, -offset).perform();
+        Thread.sleep(1000);
+        
+        Point finalLocation = draggable.getLocation();
+        Assert.assertEquals(initialLocation, finalLocation);
+        
+    }
+    
+    
+    @Test
+    public void testDragAndDrop2() {
+        driver.get("https://bonigarcia.dev/selenium-webdriver-java/drag-and-drop.html");
+        driver.manage().window().maximize();
+        Actions actions = new Actions(driver);
+
+        WebElement source = driver.findElement(By.id("draggable"));
+        WebElement target = driver.findElement(By.id("target"));
+
+        actions.dragAndDrop(source, target).build().perform();
+        Point finalLocation = source.getLocation();
+
+        
+        
+        Assert.assertEquals(finalLocation, target.getLocation());
+        
+    }
+    
+    @Test
+    public void testClickAndHoldWithDelay() throws InterruptedException {
+        driver.get("https://bonigarcia.dev/selenium-webdriver-java/draw-in-canvas.html");
+        driver.manage().window().maximize();
+        Actions actions = new Actions(driver);
+
+        WebElement canvas = driver.findElement(By.id("my-canvas"));
+        actions.moveToElement(canvas).clickAndHold();
+
+        int numPoints = 10;
+        int radius = 8;
+
+        for (int i = 0; i <= numPoints; i++) {
+            double angle = Math.toRadians((double) (360 * i) / numPoints);
+            double x = Math.sin(angle) * radius;
+            double y = Math.cos(angle) * radius;
+
+            actions.moveByOffset((int) x, (int) y).perform();
+            Thread.sleep(500); // Pause for visibility
+        }
+
+        actions.release(canvas).build().perform();
+    }
+
+    	
+    @Test
+    public void testCopyAndPaste() {
+        driver.get("https://bonigarcia.dev/selenium-webdriver-java/web-form.html");
+        driver.manage().window().maximize();
+        Actions actions = new Actions(driver);
+
+        WebElement textInput = driver.findElement(By.id("my-text-id"));
+        WebElement textArea = driver.findElement(By.name("my-textarea"));
+
+        actions.sendKeys(textInput, "Hello Tester").keyDown(Keys.CONTROL)
+                .sendKeys(textInput, "a").sendKeys(textInput, "c")
+                .sendKeys(textArea, "v").keyUp(Keys.CONTROL).build().perform();
+        
+//        Assert.assertEquals(textInput, (textArea.getDomAttribute("value")));
+
+//        assertThat(textInput.getDomAttribute("value")).isEqualTo(textArea.getDomAttribute("value"));
+    }
+    
+    
+    
+    
+    
 
 
     @AfterTest
