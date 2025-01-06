@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Table</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+
+  #employeeTable {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+
+  #employeeTable th, #employeeTable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+
+  #employeeTable th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  #employeeTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  #employeeTable tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  #employeeTable button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #employeeTable button:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+  <h2>Employee Information</h2>
+  <table id="employeeTable">
+    <thead>
+      <tr>
+        <th>Employee ID</th>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>101</td>
+        <td>Alice</td>
+        <td>HR</td>
+        <td><button>Edit</button></td>
+      </tr>
+      <tr>
+        <td>102</td>
+        <td>Bob</td>
+        <td>Finance</td>
+        <td><button>Edit</button></td>
+      </tr>
+      <tr>
+        <td>103</td>
+        <td>Mark</td>
+        <td>SDE</td>
+        <td><button>Edit</button></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
