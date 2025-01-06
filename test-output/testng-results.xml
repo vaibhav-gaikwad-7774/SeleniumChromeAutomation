@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-06T12:44:49 IST" name="Default suite" finished-at="2025-01-06T12:44:54 IST" duration-ms="4821">
+  <suite started-at="2025-01-06T15:25:53 IST" name="Default suite" finished-at="2025-01-06T15:25:56 IST" duration-ms="3398">
     <groups>
     </groups>
-    <test started-at="2025-01-06T12:44:49 IST" name="Default test" finished-at="2025-01-06T12:44:54 IST" duration-ms="4821">
+    <test started-at="2025-01-06T15:25:53 IST" name="Default test" finished-at="2025-01-06T15:25:56 IST" duration-ms="3398">
       <class name="webtables.WebTableTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:webtables.WebTableTests@645aa696]" started-at="2025-01-06T12:44:49 IST" name="setUp" finished-at="2025-01-06T12:44:53 IST" duration-ms="4059" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:webtables.WebTableTests@5e2c3d18]" started-at="2025-01-06T15:25:53 IST" name="setUp" finished-at="2025-01-06T15:25:56 IST" duration-ms="2865" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="varifyTable()[pri:0, instance:webtables.WebTableTests@645aa696]" started-at="2025-01-06T12:44:53 IST" name="varifyTable" finished-at="2025-01-06T12:44:54 IST" duration-ms="416" status="PASS">
+        <test-method signature="verifyTable()[pri:0, instance:webtables.WebTableTests@5e2c3d18]" started-at="2025-01-06T15:25:56 IST" name="verifyTable" finished-at="2025-01-06T15:25:56 IST" duration-ms="291" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- varifyTable -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:webtables.WebTableTests@645aa696]" started-at="2025-01-06T12:44:54 IST" name="tearDown" finished-at="2025-01-06T12:44:54 IST" duration-ms="276" status="PASS">
+        </test-method> <!-- verifyTable -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:webtables.WebTableTests@5e2c3d18]" started-at="2025-01-06T15:25:56 IST" name="tearDown" finished-at="2025-01-06T15:25:56 IST" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterClassCleanUp()[pri:0, instance:webtables.WebTableTests@645aa696]" started-at="2025-01-06T12:44:54 IST" name="afterClassCleanUp" finished-at="2025-01-06T12:44:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClassCleanUp()[pri:0, instance:webtables.WebTableTests@5e2c3d18]" started-at="2025-01-06T15:25:56 IST" name="afterClassCleanUp" finished-at="2025-01-06T15:25:56 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassCleanUp -->

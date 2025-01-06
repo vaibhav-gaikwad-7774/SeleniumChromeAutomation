@@ -3,18 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="actions.ActionsTest">
+      <class name="webtables.TestDatePicker">
         <methods>
-          <include name="testMouseHover1"/>
-          <include name="testMouseHover"/>
-          <include name="testDragAndDrop2"/>
-          <include name="testCopyAndPaste"/>
+          <include name="setUp"/>
+          <include name="testSelectDateLastYear"/>
+          <include name="afterClassCleanUp"/>
           <include name="tearDown"/>
-          <include name="testDragAndDrop"/>
-          <include name="testContextAndDoubleClick"/>
-          <include name="setup"/>
         </methods>
-      </class> <!-- actions.ActionsTest -->
+      </class> <!-- webtables.TestDatePicker -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
