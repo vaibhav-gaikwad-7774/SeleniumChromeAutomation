@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webtables.TestDatePicker">
+      <class name="io.learn.windows.WindowHandlingTest">
         <methods>
           <include name="setUp"/>
-          <include name="testSelectDateLastYear"/>
+          <include name="testContentInNewTab"/>
           <include name="afterClassCleanUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- webtables.TestDatePicker -->
+      </class> <!-- io.learn.windows.WindowHandlingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
