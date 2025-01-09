@@ -1,29 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-09T12:07:09 IST" name="Default suite" finished-at="2025-01-09T12:07:15 IST" duration-ms="6021">
+  <suite started-at="2025-01-09T17:17:46 IST" name="Default suite" finished-at="2025-01-09T17:18:15 IST" duration-ms="29057">
     <groups>
     </groups>
-    <test started-at="2025-01-09T12:07:09 IST" name="Default test" finished-at="2025-01-09T12:07:15 IST" duration-ms="6021">
-      <class name="cssLocators.CSSSelectorsDemo">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:cssLocators.CSSSelectorsDemo@6c284af]" started-at="2025-01-09T12:07:09 IST" name="setUp" finished-at="2025-01-09T12:07:13 IST" duration-ms="4010" status="PASS">
+    <test started-at="2025-01-09T17:17:46 IST" name="Default test" finished-at="2025-01-09T17:18:15 IST" duration-ms="29057">
+      <class name="actions.ActionsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:17:46 IST" name="setup" finished-at="2025-01-09T17:17:49 IST" duration-ms="2779" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testCSSSelectors()[pri:0, instance:cssLocators.CSSSelectorsDemo@6c284af]" started-at="2025-01-09T12:07:13 IST" name="testCSSSelectors" finished-at="2025-01-09T12:07:14 IST" duration-ms="1403" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testClickAndHoldWithDelay()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:17:49 IST" name="testClickAndHoldWithDelay" finished-at="2025-01-09T17:17:59 IST" duration-ms="9954" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCSSSelectors -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cssLocators.CSSSelectorsDemo@6c284af]" started-at="2025-01-09T12:07:14 IST" name="tearDown" finished-at="2025-01-09T12:07:15 IST" duration-ms="540" status="PASS">
+        </test-method> <!-- testClickAndHoldWithDelay -->
+        <test-method signature="testContextAndDoubleClick()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:17:59 IST" name="testContextAndDoubleClick" finished-at="2025-01-09T17:18:03 IST" duration-ms="3867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContextAndDoubleClick -->
+        <test-method signature="testCopyAndPaste()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:18:03 IST" name="testCopyAndPaste" finished-at="2025-01-09T17:18:04 IST" duration-ms="1204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCopyAndPaste -->
+        <test-method signature="testDragAndDrop()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:18:04 IST" name="testDragAndDrop" finished-at="2025-01-09T17:18:10 IST" duration-ms="6061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragAndDrop -->
+        <test-method signature="testDragAndDrop2()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:18:10 IST" name="testDragAndDrop2" finished-at="2025-01-09T17:18:11 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragAndDrop2 -->
+        <test-method signature="testMouseHover()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:18:11 IST" name="testMouseHover" finished-at="2025-01-09T17:18:14 IST" duration-ms="3826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMouseHover -->
+        <test-method signature="testMouseHover1()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:18:14 IST" name="testMouseHover1" finished-at="2025-01-09T17:18:15 IST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMouseHover1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:18:15 IST" name="tearDown" finished-at="2025-01-09T17:18:15 IST" duration-ms="216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterClassCleanUp()[pri:0, instance:cssLocators.CSSSelectorsDemo@6c284af]" started-at="2025-01-09T12:07:15 IST" name="afterClassCleanUp" finished-at="2025-01-09T12:07:15 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassCleanUp -->
-      </class> <!-- cssLocators.CSSSelectorsDemo -->
+      </class> <!-- actions.ActionsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

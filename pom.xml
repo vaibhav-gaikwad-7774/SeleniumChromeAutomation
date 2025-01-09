@@ -47,6 +47,14 @@
     <version>3.24.2</version> <!-- Latest version -->
     <scope>test</scope>
 </dependency>
+
+<!-- TestNG for testing -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.8.0</version>
+        <scope>test</scope>
+    </dependency>
         
         <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
 <dependency>
