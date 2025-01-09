@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="io.learn.windows.WindowHandlingTest">
+      <class name="cssLocators.CSSSelectorsDemo">
         <methods>
           <include name="setUp"/>
-          <include name="testContentInNewTab"/>
           <include name="afterClassCleanUp"/>
           <include name="tearDown"/>
+          <include name="testCSSSelectors"/>
         </methods>
-      </class> <!-- io.learn.windows.WindowHandlingTest -->
+      </class> <!-- cssLocators.CSSSelectorsDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

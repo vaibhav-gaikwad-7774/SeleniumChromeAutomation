@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .success-message {
+            color: green;
+            font-weight: bold;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Demo Form</h1>
+    <form id="demo-form">
+        <!-- Username Field -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" class="password-input" name="password" required>
+        <br><br>
+        
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+        <br><br>
+        
+        <!-- Dropdown -->
+        <label for="options">Options:</label>
+        <select name="options" id="options">
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+        </select>
+        <br><br>
+        
+        <!-- List -->
+        <ul>
+            <li>Option 1</li>
+            <li>Option 2</li>
+            <li>Option 3</li>
+        </ul>
+        
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+    
+    <!-- Success Message -->
+    <p class="success-message" id="success-message">Form submitted successfully!</p>
+    
+    <script>
+        // JavaScript to display the success message after form submission
+        const form = document.getElementById('demo-form');
+        const successMessage = document.getElementById('success-message');
+        
+        form.addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent actual form submission
+            successMessage.style.display = 'block'; // Show success message
+        });
+    </script>
+</body>
+</html>
