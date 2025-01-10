@@ -1,49 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-09T17:17:46 IST" name="Default suite" finished-at="2025-01-09T17:18:15 IST" duration-ms="29057">
+  <suite started-at="2025-01-10T16:31:59 IST" name="Default suite" finished-at="2025-01-10T16:32:20 IST" duration-ms="20606">
     <groups>
     </groups>
-    <test started-at="2025-01-09T17:17:46 IST" name="Default test" finished-at="2025-01-09T17:18:15 IST" duration-ms="29057">
-      <class name="actions.ActionsTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:17:46 IST" name="setup" finished-at="2025-01-09T17:17:49 IST" duration-ms="2779" status="PASS">
+    <test started-at="2025-01-10T16:31:59 IST" name="Default test" finished-at="2025-01-10T16:32:20 IST" duration-ms="20606">
+      <class name="locators.RelativeLocatorsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:00 IST" name="setUp" finished-at="2025-01-10T16:32:04 IST" duration-ms="4574" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testClickAndHoldWithDelay()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:17:49 IST" name="testClickAndHoldWithDelay" finished-at="2025-01-09T17:17:59 IST" duration-ms="9954" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="testRelativeLocatorAbove()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:04 IST" name="testRelativeLocatorAbove" finished-at="2025-01-10T16:32:06 IST" duration-ms="1703" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testClickAndHoldWithDelay -->
-        <test-method signature="testContextAndDoubleClick()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:17:59 IST" name="testContextAndDoubleClick" finished-at="2025-01-09T17:18:03 IST" duration-ms="3867" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testContextAndDoubleClick -->
-        <test-method signature="testCopyAndPaste()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:18:03 IST" name="testCopyAndPaste" finished-at="2025-01-09T17:18:04 IST" duration-ms="1204" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCopyAndPaste -->
-        <test-method signature="testDragAndDrop()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:18:04 IST" name="testDragAndDrop" finished-at="2025-01-09T17:18:10 IST" duration-ms="6061" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDragAndDrop -->
-        <test-method signature="testDragAndDrop2()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:18:10 IST" name="testDragAndDrop2" finished-at="2025-01-09T17:18:11 IST" duration-ms="394" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDragAndDrop2 -->
-        <test-method signature="testMouseHover()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:18:11 IST" name="testMouseHover" finished-at="2025-01-09T17:18:14 IST" duration-ms="3826" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMouseHover -->
-        <test-method signature="testMouseHover1()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:18:14 IST" name="testMouseHover1" finished-at="2025-01-09T17:18:15 IST" duration-ms="643" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMouseHover1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:actions.ActionsTest@5c80cf32]" started-at="2025-01-09T17:18:15 IST" name="tearDown" finished-at="2025-01-09T17:18:15 IST" duration-ms="216" status="PASS">
+        </test-method> <!-- testRelativeLocatorAbove -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:06 IST" name="tearDown" finished-at="2025-01-10T16:32:06 IST" duration-ms="418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- actions.ActionsTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:06 IST" name="setUp" finished-at="2025-01-10T16:32:08 IST" duration-ms="1244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRelativeLocatorBelow()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:08 IST" name="testRelativeLocatorBelow" finished-at="2025-01-10T16:32:08 IST" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRelativeLocatorBelow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:08 IST" name="tearDown" finished-at="2025-01-10T16:32:09 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:09 IST" name="setUp" finished-at="2025-01-10T16:32:10 IST" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRelativeLocatorChaining()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:10 IST" name="testRelativeLocatorChaining" finished-at="2025-01-10T16:32:12 IST" duration-ms="1686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRelativeLocatorChaining -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:12 IST" name="tearDown" finished-at="2025-01-10T16:32:12 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:12 IST" name="setUp" finished-at="2025-01-10T16:32:13 IST" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRelativeLocatorLeft()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:13 IST" name="testRelativeLocatorLeft" finished-at="2025-01-10T16:32:15 IST" duration-ms="1936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRelativeLocatorLeft -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:15 IST" name="tearDown" finished-at="2025-01-10T16:32:15 IST" duration-ms="509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:15 IST" name="setUp" finished-at="2025-01-10T16:32:16 IST" duration-ms="1106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRelativeLocatorNearBy()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:16 IST" name="testRelativeLocatorNearBy" finished-at="2025-01-10T16:32:17 IST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRelativeLocatorNearBy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:17 IST" name="tearDown" finished-at="2025-01-10T16:32:17 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:17 IST" name="setUp" finished-at="2025-01-10T16:32:18 IST" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRelativeLocatorRight()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:18 IST" name="testRelativeLocatorRight" finished-at="2025-01-10T16:32:20 IST" duration-ms="1639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRelativeLocatorRight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:20 IST" name="tearDown" finished-at="2025-01-10T16:32:20 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClassCleanUp()[pri:0, instance:locators.RelativeLocatorsTest@76494737]" started-at="2025-01-10T16:32:20 IST" name="afterClassCleanUp" finished-at="2025-01-10T16:32:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassCleanUp -->
+      </class> <!-- locators.RelativeLocatorsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

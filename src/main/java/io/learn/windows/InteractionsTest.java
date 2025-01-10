@@ -1,9 +1,11 @@
-package actions;
+package io.learn.windows;
 
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import actions.BaseTest;
 
 public class InteractionsTest extends BaseTest{
 	public static final String URL = "https://bonigarcia.dev/selenium-webdriver-java/web-form.html";

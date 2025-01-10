@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="cssLocators.CSSSelectorsDemo">
+      <class name="interactions.InteractionsTest">
         <methods>
+          <include name="testClickLink"/>
           <include name="setUp"/>
           <include name="afterClassCleanUp"/>
           <include name="tearDown"/>
-          <include name="testCSSSelectors"/>
         </methods>
-      </class> <!-- cssLocators.CSSSelectorsDemo -->
+      </class> <!-- interactions.InteractionsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
