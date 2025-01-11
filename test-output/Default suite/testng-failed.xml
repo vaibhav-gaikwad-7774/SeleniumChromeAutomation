@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="interactions.InteractionsTest">
+      <class name="adAdvancedInteraction.ActionsTest">
         <methods>
-          <include name="testClickLink"/>
+          <include name="testGoogleSearchCopyPaste"/>
           <include name="setUp"/>
           <include name="afterClassCleanUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- interactions.InteractionsTest -->
+      </class> <!-- adAdvancedInteraction.ActionsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
