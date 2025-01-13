@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="adAdvancedInteraction.ActionsTest">
+      <class name="page_objects.LoginPageTests">
         <methods>
-          <include name="testGoogleSearchCopyPaste"/>
-          <include name="setUp"/>
-          <include name="afterClassCleanUp"/>
           <include name="tearDown"/>
+          <include name="testValidLoginWithPageFactoryApproach"/>
+          <include name="setUp"/>
+          <include name="testLoginWithNormalApproach"/>
+          <include name="testValidLoginWithPageObjectApproach"/>
         </methods>
-      </class> <!-- adAdvancedInteraction.ActionsTest -->
+      </class> <!-- page_objects.LoginPageTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
