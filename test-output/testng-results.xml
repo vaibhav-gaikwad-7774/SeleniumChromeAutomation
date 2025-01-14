@@ -1,101 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-13T16:55:45 IST" name="Default suite" finished-at="2025-01-13T16:56:45 IST" duration-ms="59912">
+  <suite started-at="2025-01-14T16:03:52 IST" name="Default suite" finished-at="2025-01-14T16:04:02 IST" duration-ms="9760">
     <groups>
     </groups>
-    <test started-at="2025-01-13T16:55:45 IST" name="Default test" finished-at="2025-01-13T16:56:45 IST" duration-ms="59912">
-      <class name="waits.WaitingMechanismTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:55:45 IST" name="setUp" finished-at="2025-01-13T16:55:50 IST" duration-ms="4839" status="PASS">
+    <test started-at="2025-01-14T16:03:52 IST" name="Default test" finished-at="2025-01-14T16:04:02 IST" duration-ms="9760">
+      <class name="screenshots.ScreenshotsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:03:52 IST" name="setUp" finished-at="2025-01-14T16:03:55 IST" duration-ms="3534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testExplicitWait()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:55:50 IST" name="testExplicitWait" finished-at="2025-01-13T16:55:58 IST" duration-ms="8479" status="PASS">
+        <test-method signature="testScreenshotBase64()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:03:55 IST" name="testScreenshotBase64" finished-at="2025-01-14T16:03:57 IST" duration-ms="1320" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testExplicitWait -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:55:58 IST" name="tearDown" finished-at="2025-01-13T16:56:00 IST" duration-ms="1860" status="PASS">
+        </test-method> <!-- testScreenshotBase64 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:03:57 IST" name="tearDown" finished-at="2025-01-14T16:03:57 IST" duration-ms="240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:00 IST" name="setUp" finished-at="2025-01-13T16:56:01 IST" duration-ms="1096" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:03:57 IST" name="setUp" finished-at="2025-01-14T16:03:59 IST" duration-ms="1698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testExplicitWait2()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:01 IST" name="testExplicitWait2" finished-at="2025-01-13T16:56:08 IST" duration-ms="6476" status="PASS">
+        <test-method signature="testScreenshotPNG()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:03:59 IST" name="testScreenshotPNG" finished-at="2025-01-14T16:03:59 IST" duration-ms="520" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testExplicitWait2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:08 IST" name="tearDown" finished-at="2025-01-13T16:56:08 IST" duration-ms="248" status="PASS">
+        </test-method> <!-- testScreenshotPNG -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:03:59 IST" name="tearDown" finished-at="2025-01-14T16:03:59 IST" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:08 IST" name="setUp" finished-at="2025-01-13T16:56:09 IST" duration-ms="1090" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:03:59 IST" name="setUp" finished-at="2025-01-14T16:04:01 IST" duration-ms="1384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFluentWait()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:09 IST" name="testFluentWait" finished-at="2025-01-13T16:56:15 IST" duration-ms="6337" status="PASS">
+        <test-method signature="testWebElementScreenshot()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:04:01 IST" name="testWebElementScreenshot" finished-at="2025-01-14T16:04:01 IST" duration-ms="650" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFluentWait -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:15 IST" name="tearDown" finished-at="2025-01-13T16:56:16 IST" duration-ms="242" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:16 IST" name="setUp" finished-at="2025-01-13T16:56:17 IST" duration-ms="1327" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testHardWait()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:17 IST" name="testHardWait" finished-at="2025-01-13T16:56:27 IST" duration-ms="10417" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testHardWait -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:27 IST" name="tearDown" finished-at="2025-01-13T16:56:28 IST" duration-ms="249" status="PASS">
+        </test-method> <!-- testWebElementScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:04:01 IST" name="tearDown" finished-at="2025-01-14T16:04:02 IST" duration-ms="202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:28 IST" name="setUp" finished-at="2025-01-13T16:56:29 IST" duration-ms="1036" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testImages()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:29 IST" name="testImages" finished-at="2025-01-13T16:56:35 IST" duration-ms="6537" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testImages -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:35 IST" name="tearDown" finished-at="2025-01-13T16:56:35 IST" duration-ms="202" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:35 IST" name="setUp" finished-at="2025-01-13T16:56:37 IST" duration-ms="1119" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testImages2()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:37 IST" name="testImages2" finished-at="2025-01-13T16:56:37 IST" duration-ms="581" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testImages2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:37 IST" name="tearDown" finished-at="2025-01-13T16:56:37 IST" duration-ms="160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:37 IST" name="setUp" finished-at="2025-01-13T16:56:38 IST" duration-ms="892" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testImplicitWait()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:38 IST" name="testImplicitWait" finished-at="2025-01-13T16:56:45 IST" duration-ms="6450" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testImplicitWait -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:45 IST" name="tearDown" finished-at="2025-01-13T16:56:45 IST" duration-ms="194" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterClassCleanUp()[pri:0, instance:waits.WaitingMechanismTests@1033576a]" started-at="2025-01-13T16:56:45 IST" name="afterClassCleanUp" finished-at="2025-01-13T16:56:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClassCleanUp()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:04:02 IST" name="afterClassCleanUp" finished-at="2025-01-14T16:04:02 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClassCleanUp -->
-      </class> <!-- waits.WaitingMechanismTests -->
+      </class> <!-- screenshots.ScreenshotsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

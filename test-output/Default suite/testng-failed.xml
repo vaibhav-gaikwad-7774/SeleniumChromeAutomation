@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="page_objects.LoginPageTests">
+      <class name="exceptions.ExceptionsTestDemo">
         <methods>
-          <include name="tearDown"/>
-          <include name="testValidLoginWithPageFactoryApproach"/>
           <include name="setUp"/>
-          <include name="testLoginWithNormalApproach"/>
-          <include name="testValidLoginWithPageObjectApproach"/>
+          <include name="afterClassCleanUp"/>
+          <include name="tearDown"/>
+          <include name="testStaleElementReferenceException"/>
         </methods>
-      </class> <!-- page_objects.LoginPageTests -->
+      </class> <!-- exceptions.ExceptionsTestDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
