@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="exceptions.ExceptionsTestDemo">
+      <class name="io.learn.old_approach.SampleTest">
         <methods>
-          <include name="setUp"/>
-          <include name="afterClassCleanUp"/>
-          <include name="tearDown"/>
-          <include name="testStaleElementReferenceException"/>
+          <include name="testWithOldApproach"/>
         </methods>
-      </class> <!-- exceptions.ExceptionsTestDemo -->
+      </class> <!-- io.learn.old_approach.SampleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
