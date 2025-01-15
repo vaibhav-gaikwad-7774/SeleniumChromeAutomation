@@ -1,53 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-14T16:03:52 IST" name="Default suite" finished-at="2025-01-14T16:04:02 IST" duration-ms="9760">
+  <suite started-at="2025-01-15T10:08:51 IST" name="Default suite" finished-at="2025-01-15T10:09:15 IST" duration-ms="23860">
     <groups>
     </groups>
-    <test started-at="2025-01-14T16:03:52 IST" name="Default test" finished-at="2025-01-14T16:04:02 IST" duration-ms="9760">
-      <class name="screenshots.ScreenshotsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:03:52 IST" name="setUp" finished-at="2025-01-14T16:03:55 IST" duration-ms="3534" status="PASS">
+    <test started-at="2025-01-15T10:08:51 IST" name="Default test" finished-at="2025-01-15T10:09:15 IST" duration-ms="23860">
+      <class name="screenshots.ScreenshotTest2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:screenshots.ScreenshotTest2@4f32a3ad]" started-at="2025-01-15T10:08:51 IST" name="setUp" finished-at="2025-01-15T10:09:12 IST" duration-ms="20784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testScreenshotBase64()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:03:55 IST" name="testScreenshotBase64" finished-at="2025-01-14T16:03:57 IST" duration-ms="1320" status="PASS">
+        <test-method signature="testFullPageScreenshotFirefox()[pri:0, instance:screenshots.ScreenshotTest2@4f32a3ad]" started-at="2025-01-15T10:09:12 IST" name="testFullPageScreenshotFirefox" finished-at="2025-01-15T10:09:14 IST" duration-ms="1637" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testScreenshotBase64 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:03:57 IST" name="tearDown" finished-at="2025-01-14T16:03:57 IST" duration-ms="240" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:03:57 IST" name="setUp" finished-at="2025-01-14T16:03:59 IST" duration-ms="1698" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testScreenshotPNG()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:03:59 IST" name="testScreenshotPNG" finished-at="2025-01-14T16:03:59 IST" duration-ms="520" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testScreenshotPNG -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:03:59 IST" name="tearDown" finished-at="2025-01-14T16:03:59 IST" duration-ms="159" status="PASS">
+        </test-method> <!-- testFullPageScreenshotFirefox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:screenshots.ScreenshotTest2@4f32a3ad]" started-at="2025-01-15T10:09:14 IST" name="tearDown" finished-at="2025-01-15T10:09:15 IST" duration-ms="1377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:03:59 IST" name="setUp" finished-at="2025-01-14T16:04:01 IST" duration-ms="1384" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testWebElementScreenshot()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:04:01 IST" name="testWebElementScreenshot" finished-at="2025-01-14T16:04:01 IST" duration-ms="650" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWebElementScreenshot -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:04:01 IST" name="tearDown" finished-at="2025-01-14T16:04:02 IST" duration-ms="202" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterClassCleanUp()[pri:0, instance:screenshots.ScreenshotsTest@24569dba]" started-at="2025-01-14T16:04:02 IST" name="afterClassCleanUp" finished-at="2025-01-14T16:04:02 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClassCleanUp -->
-      </class> <!-- screenshots.ScreenshotsTest -->
+      </class> <!-- screenshots.ScreenshotTest2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
