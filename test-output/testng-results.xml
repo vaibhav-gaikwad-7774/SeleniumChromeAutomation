@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-15T10:08:51 IST" name="Default suite" finished-at="2025-01-15T10:09:15 IST" duration-ms="23860">
+  <suite started-at="2025-01-15T11:55:18 IST" name="Default suite" finished-at="2025-01-15T11:55:28 IST" duration-ms="9906">
     <groups>
     </groups>
-    <test started-at="2025-01-15T10:08:51 IST" name="Default test" finished-at="2025-01-15T10:09:15 IST" duration-ms="23860">
+    <test started-at="2025-01-15T11:55:18 IST" name="Default test" finished-at="2025-01-15T11:55:28 IST" duration-ms="9906">
       <class name="screenshots.ScreenshotTest2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:screenshots.ScreenshotTest2@4f32a3ad]" started-at="2025-01-15T10:08:51 IST" name="setUp" finished-at="2025-01-15T10:09:12 IST" duration-ms="20784" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:screenshots.ScreenshotTest2@5c80cf32]" started-at="2025-01-15T11:55:18 IST" name="setUp" finished-at="2025-01-15T11:55:25 IST" duration-ms="6209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFullPageScreenshotFirefox()[pri:0, instance:screenshots.ScreenshotTest2@4f32a3ad]" started-at="2025-01-15T10:09:12 IST" name="testFullPageScreenshotFirefox" finished-at="2025-01-15T10:09:14 IST" duration-ms="1637" status="PASS">
+        <test-method signature="testFullPageScreenshotFirefox()[pri:0, instance:screenshots.ScreenshotTest2@5c80cf32]" started-at="2025-01-15T11:55:25 IST" name="testFullPageScreenshotFirefox" finished-at="2025-01-15T11:55:27 IST" duration-ms="2282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFullPageScreenshotFirefox -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:screenshots.ScreenshotTest2@4f32a3ad]" started-at="2025-01-15T10:09:14 IST" name="tearDown" finished-at="2025-01-15T10:09:15 IST" duration-ms="1377" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:screenshots.ScreenshotTest2@5c80cf32]" started-at="2025-01-15T11:55:27 IST" name="tearDown" finished-at="2025-01-15T11:55:28 IST" duration-ms="1338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
