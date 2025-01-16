@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="io.learn.old_approach.SampleTest">
+      <class name="browser_specific.insecure.InsecureChromeTest">
         <methods>
-          <include name="testWithOldApproach"/>
+          <include name="setUp"/>
+          <include name="testInsecure"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- io.learn.old_approach.SampleTest -->
+      </class> <!-- browser_specific.insecure.InsecureChromeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
