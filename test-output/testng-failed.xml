@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="browser_specific.insecure.InsecureChromeTest">
+      <class name="cross_browser.CrossBrowserTests2">
         <methods>
-          <include name="setUp"/>
-          <include name="testInsecure"/>
           <include name="tearDown"/>
+          <include name="testTitle" invocation-numbers="0"/>
         </methods>
-      </class> <!-- browser_specific.insecure.InsecureChromeTest -->
+      </class> <!-- cross_browser.CrossBrowserTests2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

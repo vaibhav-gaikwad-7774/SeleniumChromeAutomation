@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-16T15:24:46 IST" name="Default suite" finished-at="2025-01-16T15:25:01 IST" duration-ms="15519">
+  <suite started-at="2025-01-16T16:42:35 IST" name="CrossBrowserSuite" finished-at="2025-01-16T16:42:55 IST" duration-ms="19687">
     <groups>
     </groups>
-    <test started-at="2025-01-16T15:24:46 IST" name="Default test" finished-at="2025-01-16T15:25:01 IST" duration-ms="15519">
-      <class name="cross_browser.CrossBrowserTests">
-        <test-method signature="testTitle(java.lang.String)[pri:0, instance:cross_browser.CrossBrowserTests@23e84203]" started-at="2025-01-16T15:24:46 IST" name="testTitle" data-provider="getBrowserData" finished-at="2025-01-16T15:24:50 IST" duration-ms="4495" status="PASS">
+    <test started-at="2025-01-16T16:42:35 IST" name="Varification of test with chrome" finished-at="2025-01-16T16:42:42 IST" duration-ms="6773">
+      <class name="cross_browser.CrossBrowserTests2">
+        <test-method signature="testTitle(java.lang.String)[pri:0, instance:cross_browser.CrossBrowserTests2@4d1c005e]" started-at="2025-01-16T16:42:35 IST" name="testTitle" finished-at="2025-01-16T16:42:41 IST" duration-ms="6299" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cross_browser.CrossBrowserTests@23e84203]" started-at="2025-01-16T15:24:50 IST" name="tearDown" finished-at="2025-01-16T15:24:51 IST" duration-ms="320" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cross_browser.CrossBrowserTests2@4d1c005e]" started-at="2025-01-16T16:42:41 IST" name="tearDown" finished-at="2025-01-16T16:42:42 IST" duration-ms="386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="testTitle(java.lang.String)[pri:0, instance:cross_browser.CrossBrowserTests@23e84203]" started-at="2025-01-16T15:24:51 IST" name="testTitle" data-provider="getBrowserData" finished-at="2025-01-16T15:24:53 IST" duration-ms="2148" status="PASS">
+      </class> <!-- cross_browser.CrossBrowserTests2 -->
+    </test> <!-- Varification of test with chrome -->
+    <test started-at="2025-01-16T16:42:42 IST" name="Varification of test with edge" finished-at="2025-01-16T16:42:47 IST" duration-ms="5584">
+      <class name="cross_browser.CrossBrowserTests2">
+        <test-method signature="testTitle(java.lang.String)[pri:0, instance:cross_browser.CrossBrowserTests2@aba625]" started-at="2025-01-16T16:42:42 IST" name="testTitle" finished-at="2025-01-16T16:42:45 IST" duration-ms="3534" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,11 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cross_browser.CrossBrowserTests@23e84203]" started-at="2025-01-16T15:24:53 IST" name="tearDown" finished-at="2025-01-16T15:24:54 IST" duration-ms="1683" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cross_browser.CrossBrowserTests2@aba625]" started-at="2025-01-16T16:42:45 IST" name="tearDown" finished-at="2025-01-16T16:42:47 IST" duration-ms="2045" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="testTitle(java.lang.String)[pri:0, instance:cross_browser.CrossBrowserTests@23e84203]" started-at="2025-01-16T15:24:54 IST" name="testTitle" data-provider="getBrowserData" finished-at="2025-01-16T15:25:00 IST" duration-ms="5608" status="PASS">
+      </class> <!-- cross_browser.CrossBrowserTests2 -->
+    </test> <!-- Varification of test with edge -->
+    <test started-at="2025-01-16T16:42:47 IST" name="Varification of test with firefox" finished-at="2025-01-16T16:42:55 IST" duration-ms="7261">
+      <class name="cross_browser.CrossBrowserTests2">
+        <test-method signature="testTitle(java.lang.String)[pri:0, instance:cross_browser.CrossBrowserTests2@5a5a729f]" started-at="2025-01-16T16:42:47 IST" name="testTitle" finished-at="2025-01-16T16:42:54 IST" duration-ms="6213" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,11 +56,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cross_browser.CrossBrowserTests@23e84203]" started-at="2025-01-16T15:25:00 IST" name="tearDown" finished-at="2025-01-16T15:25:01 IST" duration-ms="1183" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cross_browser.CrossBrowserTests2@5a5a729f]" started-at="2025-01-16T16:42:54 IST" name="tearDown" finished-at="2025-01-16T16:42:55 IST" duration-ms="1042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- cross_browser.CrossBrowserTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- cross_browser.CrossBrowserTests2 -->
+    </test> <!-- Varification of test with firefox -->
+  </suite> <!-- CrossBrowserSuite -->
 </testng-results>
