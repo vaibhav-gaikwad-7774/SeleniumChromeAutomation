@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="cross_browser.CrossBrowserTests2">
+      <class name="crud.CRUDOperationsTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="testTitle" invocation-numbers="0"/>
+          <include name="testDelete"/>
         </methods>
-      </class> <!-- cross_browser.CrossBrowserTests2 -->
+      </class> <!-- crud.CRUDOperationsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

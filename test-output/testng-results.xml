@@ -1,66 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-16T16:42:35 IST" name="CrossBrowserSuite" finished-at="2025-01-16T16:42:55 IST" duration-ms="19687">
+  <suite started-at="2025-01-24T12:01:16 IST" name="Default suite" finished-at="2025-01-24T12:01:23 IST" duration-ms="7481">
     <groups>
     </groups>
-    <test started-at="2025-01-16T16:42:35 IST" name="Varification of test with chrome" finished-at="2025-01-16T16:42:42 IST" duration-ms="6773">
-      <class name="cross_browser.CrossBrowserTests2">
-        <test-method signature="testTitle(java.lang.String)[pri:0, instance:cross_browser.CrossBrowserTests2@4d1c005e]" started-at="2025-01-16T16:42:35 IST" name="testTitle" finished-at="2025-01-16T16:42:41 IST" duration-ms="6299" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-01-24T12:01:16 IST" name="Default test" finished-at="2025-01-24T12:01:23 IST" duration-ms="7481">
+      <class name="crud.CRUDOperationsTest">
+        <test-method signature="testCreate()[pri:0, instance:crud.CRUDOperationsTest@6be968ce]" started-at="2025-01-24T12:01:16 IST" name="testCreate" finished-at="2025-01-24T12:01:21 IST" duration-ms="5033" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cross_browser.CrossBrowserTests2@4d1c005e]" started-at="2025-01-16T16:42:41 IST" name="tearDown" finished-at="2025-01-16T16:42:42 IST" duration-ms="386" status="PASS">
+        </test-method> <!-- testCreate -->
+        <test-method signature="testDelete()[pri:0, instance:crud.CRUDOperationsTest@6be968ce]" started-at="2025-01-24T12:01:21 IST" name="testDelete" finished-at="2025-01-24T12:01:22 IST" duration-ms="920" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- cross_browser.CrossBrowserTests2 -->
-    </test> <!-- Varification of test with chrome -->
-    <test started-at="2025-01-16T16:42:42 IST" name="Varification of test with edge" finished-at="2025-01-16T16:42:47 IST" duration-ms="5584">
-      <class name="cross_browser.CrossBrowserTests2">
-        <test-method signature="testTitle(java.lang.String)[pri:0, instance:cross_browser.CrossBrowserTests2@aba625]" started-at="2025-01-16T16:42:42 IST" name="testTitle" finished-at="2025-01-16T16:42:45 IST" duration-ms="3534" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testDelete -->
+        <test-method signature="testRead()[pri:0, instance:crud.CRUDOperationsTest@6be968ce]" started-at="2025-01-24T12:01:22 IST" name="testRead" finished-at="2025-01-24T12:01:22 IST" duration-ms="585" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cross_browser.CrossBrowserTests2@aba625]" started-at="2025-01-16T16:42:45 IST" name="tearDown" finished-at="2025-01-16T16:42:47 IST" duration-ms="2045" status="PASS">
+        </test-method> <!-- testRead -->
+        <test-method signature="testUpdate()[pri:0, instance:crud.CRUDOperationsTest@6be968ce]" started-at="2025-01-24T12:01:22 IST" name="testUpdate" finished-at="2025-01-24T12:01:23 IST" duration-ms="849" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- cross_browser.CrossBrowserTests2 -->
-    </test> <!-- Varification of test with edge -->
-    <test started-at="2025-01-16T16:42:47 IST" name="Varification of test with firefox" finished-at="2025-01-16T16:42:55 IST" duration-ms="7261">
-      <class name="cross_browser.CrossBrowserTests2">
-        <test-method signature="testTitle(java.lang.String)[pri:0, instance:cross_browser.CrossBrowserTests2@5a5a729f]" started-at="2025-01-16T16:42:47 IST" name="testTitle" finished-at="2025-01-16T16:42:54 IST" duration-ms="6213" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:cross_browser.CrossBrowserTests2@5a5a729f]" started-at="2025-01-16T16:42:54 IST" name="tearDown" finished-at="2025-01-16T16:42:55 IST" duration-ms="1042" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- cross_browser.CrossBrowserTests2 -->
-    </test> <!-- Varification of test with firefox -->
-  </suite> <!-- CrossBrowserSuite -->
+        </test-method> <!-- testUpdate -->
+      </class> <!-- crud.CRUDOperationsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
