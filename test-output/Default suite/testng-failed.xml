@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="crud.CRUDOperationsTest">
+      <class name="io.learn.basic.BasicTests">
         <methods>
-          <include name="testDelete"/>
+          <include name="verifyPlaceDetails"/>
         </methods>
-      </class> <!-- crud.CRUDOperationsTest -->
+      </class> <!-- io.learn.basic.BasicTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
