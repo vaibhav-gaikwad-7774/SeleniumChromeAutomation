@@ -1,66 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-25T15:25:27 IST" name="Default suite" finished-at="2025-01-25T15:25:48 IST" duration-ms="20862">
+  <suite started-at="2025-01-25T17:30:38 IST" name="Default suite" finished-at="2025-01-25T17:30:52 IST" duration-ms="13407">
     <groups>
     </groups>
-    <test started-at="2025-01-25T15:25:27 IST" name="Default test" finished-at="2025-01-25T15:25:48 IST" duration-ms="20862">
-      <class name="crud.AllMethodTests2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:crud.AllMethodTests2@3ad83a66]" started-at="2025-01-25T15:25:27 IST" name="setUp" finished-at="2025-01-25T15:25:29 IST" duration-ms="2425" status="PASS">
+    <test started-at="2025-01-25T17:30:38 IST" name="Default test" finished-at="2025-01-25T17:30:52 IST" duration-ms="13407">
+      <class name="schemavalidation.SchemaValidationTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:schemavalidation.SchemaValidationTests@17bffc17]" started-at="2025-01-25T17:30:38 IST" name="setUp" finished-at="2025-01-25T17:30:41 IST" duration-ms="2667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPOST()[pri:1, instance:crud.AllMethodTests2@3ad83a66]" started-at="2025-01-25T15:25:29 IST" name="testPOST" finished-at="2025-01-25T15:25:37 IST" duration-ms="7788" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPOST -->
-        <test-method signature="testDeserialization()[pri:2, instance:crud.AllMethodTests2@3ad83a66]" started-at="2025-01-25T15:25:37 IST" name="testDeserialization" finished-at="2025-01-25T15:25:39 IST" depends-on-methods="crud.AllMethodTests2.testPOST" duration-ms="2392" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeserialization -->
-        <test-method signature="testPUT()[pri:3, instance:crud.AllMethodTests2@3ad83a66]" started-at="2025-01-25T15:25:39 IST" name="testPUT" finished-at="2025-01-25T15:25:41 IST" depends-on-methods="crud.AllMethodTests2.testPOST" duration-ms="1255" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPUT -->
-        <test-method signature="testAllMethods()[pri:4, instance:crud.AllMethodTests2@3ad83a66]" started-at="2025-01-25T15:25:41 IST" name="testAllMethods" finished-at="2025-01-25T15:25:48 IST" duration-ms="6820" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="testSchemaForPet()[pri:0, instance:schemavalidation.SchemaValidationTests@17bffc17]" started-at="2025-01-25T17:30:41 IST" name="testSchemaForPet" finished-at="2025-01-25T17:30:52 IST" duration-ms="10633" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
             <message>
-              <![CDATA[1 expectation failed.
-Expected status code <404> but was <200>.
-]]>
+              <![CDATA[matcher cannot be null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <404> but was <200>.
-
+              <![CDATA[java.lang.IllegalArgumentException: matcher cannot be null
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
 at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at crud.AllMethodTests2.testAllMethods(AllMethodTests2.java:136)
+at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:106)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+at schemavalidation.SchemaValidationTests.testSchemaForPet(SchemaValidationTests.java:39)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -91,11 +67,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAllMethods -->
-      </class> <!-- crud.AllMethodTests2 -->
+        </test-method> <!-- testSchemaForPet -->
+      </class> <!-- schemavalidation.SchemaValidationTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
