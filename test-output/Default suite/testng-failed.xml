@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="io.learn.basic.BasicTests">
+      <class name="datadriven.DataDrivenTests">
         <methods>
-          <include name="verifyPlaceDetails"/>
+          <include name="verifyState1"/>
         </methods>
-      </class> <!-- io.learn.basic.BasicTests -->
+      </class> <!-- datadriven.DataDrivenTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

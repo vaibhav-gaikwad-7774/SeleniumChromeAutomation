@@ -56,4 +56,31 @@ public class BasicTests {
 //   24 min done     		
         
     }
+    
+    @Test
+    public void varifyNegativeTest() {
+        // Verify the status code for the API request
+        given()
+                .baseUri("http://api.zippopotam.us") // Base URI
+                .when()
+                .get("/us/99999") // Endpoint with path parameter
+                .then()
+                .assertThat()
+                .statusCode(404); // Expected status code
+        
+    }
+    
+    @Test
+    public void varifyResponseType() {
+        // Verify the status code for the API request
+        given()
+                .baseUri("http://api.zippopotam.us") // Base URI
+                .when()
+                .get("/us/90210") // Endpoint with path parameter
+                .then()
+                .assertThat()
+                .statusCode(200) // Expected status code
+        		.contentType(equalTo("application/json"));
+        
+    }
 }
